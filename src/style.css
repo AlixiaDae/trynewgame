@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'RobotoMono';
-    src: url('./RobotoMono-VariableFont_wght.ttf');
+    src: url('./font/RobotoMono-VariableFont_wght.ttf');
 }
 
 body {
@@ -28,6 +28,11 @@ body {
     display: grid;
     grid-template-rows: 3fr 1fr;
     grid-template-columns: 1fr;
+}
+
+.inventory-box {
+    grid-area: 1;
+    color: whitesmoke;
 }
 
 .command-box {

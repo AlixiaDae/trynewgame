@@ -3,6 +3,10 @@ export default class Inventory {
         this.bag = []
     }
 
+    showKeys() {
+        return this.bag.map(keys => keys.getNumber())
+    }
+
     addKey(keyNumber) {
         this.bag.push(keyNumber)
     }
